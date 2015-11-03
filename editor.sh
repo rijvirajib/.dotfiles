@@ -26,5 +26,16 @@ function use_sublime () {
   }
 }
 
-use_sublime
+function use_atom () {
+  export EDITOR="atom"
 
+  function s {
+    if [ "$1" != "" ]; then
+      atom $1
+    else
+      atom .
+    fi
+  }
+}
+
+use_atom
