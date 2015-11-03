@@ -17,5 +17,5 @@ source $DF_BASE_PATH/go.sh
 source $DF_BASE_PATH/heroku.sh
 source $DF_BASE_PATH/node.sh
 source $DF_BASE_PATH/rails.sh
-source $DF_BASE_PATH/ruby.sh
+#source $DF_BASE_PATH/ruby.sh
 source $DF_BASE_PATH/xquartz.sh
